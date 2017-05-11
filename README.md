@@ -1,5 +1,6 @@
-##capybra_hello_word##
-#Primeiro Exemplo Capybra + Cucumber#
+#capybra_hello_word
+
+Primeiro Exemplo Capybra + Cucumber
 
 Cucumber é  framework  para BDD (Behaviour-Driven Development - Desenvolvimento Guiado por Comportamento).
 O vocabulário comum em BDD é o Gherkin. 
@@ -11,7 +12,7 @@ Capybara é um framework de automação de testes em aplicações web, open-sour
 
 Principais comandos Capybra:<br />
 
-visit ‘https://google.com.br’ – Para visitar alguma url.<br />
+visit 'https://google.com.br' – Para visitar alguma url.<br />
 page.find(:id, “id do elemento”).click – Clica em um elemento definido por ID.<br />
 page.find(:css, “css do elemento”).click – Clica em um elemento definido por CSS.<br />
 page.find(:xpath, “xpath do elemento”).click – Clica em um elemento definido por XPATH.<br />
