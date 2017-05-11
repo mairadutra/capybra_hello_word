@@ -1,5 +1,5 @@
-## capybra_hello_word
-#Primeiro Exemplo Capybra + Cucumber
+##capybra_hello_word##
+#Primeiro Exemplo Capybra + Cucumber#
 
 Cucumber é  framework  para BDD (Behaviour-Driven Development - Desenvolvimento Guiado por Comportamento).
 O vocabulário comum em BDD é o Gherkin. 
@@ -21,11 +21,11 @@ page.all(:xpath, “xpath do elemento”)[0].click – Clica no primeiro element
 
 PS: Quando nos depararmos com um checkbox, radiobutton, utilizar da seguinte forma:
 
-page.find(:radio_button, ‘nome do radiobutton’).set(true) – Nesse caso, ele vai selecionar aquele radiobutton.
-page.find(:checkbox, ‘nome do checkbox’).set(true) – Nesse caso, ele vai selecionar aquele checkbox.
-fill_in ‘nome do elemento para inserir valor’, :with => “Aprendendo Capybara” – Irá inserir no elemento a string Aprendendo Capybara.
+page.find(:radio_button, ‘nome do radiobutton’).set(true) – Nesse caso, ele vai selecionar aquele radiobutton.<br />
+page.find(:checkbox, ‘nome do checkbox’).set(true) – Nesse caso, ele vai selecionar aquele checkbox.<br />
+fill_in ‘nome do elemento para inserir valor’, :with => “Aprendendo Capybara” – Irá inserir no elemento a string Aprendendo Capybara<br />
 select ‘Nome do item no Drop Down’, from: ‘nome do elemento drop down’ – Seleciona um item de um drop down.
-ex: select ‘Apto’, from ‘tipo_moradia’
-click_button ‘Cadastrar’ – Clic no botão cadastrar.
+ex: select ‘Apto’, from ‘tipo_moradia’<br />
+click_button ‘Cadastrar’ – Clic no botão cadastrar.<br />
 click_link ‘Home’ – Clica no link Home caso haja algum na página.
 expect(page).to have_content ‘Cadastro efetuado com sucesso’ – Procura a mensagem e caso tenha, será sucesso.
